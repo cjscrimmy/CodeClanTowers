@@ -36,7 +36,10 @@ public class Bedroom {
     }
 
     public Guest removeBedroomGuest(Guest guest){
-        int indexInArrayList = this.guestsInBedroom.indexOf(guest);
-        return this.guestsInBedroom.remove(indexInArrayList);
+        if(guestCount() > 0) {
+            int indexInArrayList = this.guestsInBedroom.indexOf(guest);
+            return this.guestsInBedroom.remove(indexInArrayList);
+        }
+        return null;
     }
 }
