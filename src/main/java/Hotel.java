@@ -39,10 +39,10 @@ public class Hotel {
         return room.removeGuest(guest);
     }
 
-        
     public Guest checkOutConfRoom(Guest guest, ConferenceRoom room){
         return room.removeGuest(guest);
     }
+
 //    public void hasEmptyRoom(){
 //
 //    }
