@@ -111,9 +111,9 @@ public class HotelTest {
         assertEquals(0, hotel.diningRoomCount());
     }
 
-//    @Test
-//    public void canAddDiningRoom() {
-//        hotel.addDiningRoom(diningRoom1);
-//        assertEquals(1, hotel.diningRoomCount());
-//    }
+    @Test
+    public void canAddDiningRoom() {
+        hotel.addDiningRoom(diningRoom1);
+        assertEquals(1, hotel.diningRoomCount());
+    }
 }
