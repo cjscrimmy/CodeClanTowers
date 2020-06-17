@@ -11,6 +11,10 @@ public class ConferenceRoom {
         this.guests = new ArrayList<Guest>();
     }
 
+    public String getName(){
+        return this.name;
+    }
+
     public int getCapacity() {
         return this.capacity;
     }

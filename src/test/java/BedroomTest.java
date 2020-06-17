@@ -53,6 +53,12 @@ public class BedroomTest {
         assertEquals(1, bedroom2.guestCount());
     }
 
+//    @Test
+//    public void cantAddGuestToBedroomTwice(){
+//        bedroom1.addBedroomGuest(guest1);
+//
+//    }
+
     @Test
     public void canRemoveGuestFromBedroom(){
         bedroom1.addBedroomGuest(guest3);
