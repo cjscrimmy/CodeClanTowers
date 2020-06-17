@@ -39,10 +39,11 @@ public class ConferenceRoomTest {
         assertEquals(3, confRoom.getGuestsSize());
     }
 
-//    @Test
-//    public void removeGuest(){
-//        confRoom.addGuest(guest4);
-//        confRoom.removeGuest(guest4);
-//        assertEquals(3, confRoom.getGuestsSize());
-//    }
+    @Test
+    public void removeGuest(){
+        confRoom.addGuest(guest3);
+        confRoom.addGuest(guest4);
+        confRoom.removeGuest(guest4);
+        assertEquals(1, confRoom.getGuestsSize());
+    }
 }

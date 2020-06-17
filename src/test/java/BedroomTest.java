@@ -52,4 +52,9 @@ public class BedroomTest {
         bedroom2.addBedroomGuest(guest2);
         assertEquals(1, bedroom2.guestCount());
     }
+
+//    @Test
+//    public void canRemoveGuestFromBedroom(){
+//        bedroom1.add
+//    }
 }
