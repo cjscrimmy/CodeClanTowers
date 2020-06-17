@@ -13,5 +13,7 @@ public class ConferenceRoom {
         return this.capacity;
     }
 
-    public int getGueutsSi
+    public int getGuestsSize(){
+        return this.guests.size();
+    }
 }

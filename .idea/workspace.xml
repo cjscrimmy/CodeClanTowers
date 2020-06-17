@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.BedroomTest.hasBedroomCapacity">
+  <component name="RunManager" selected="JUnit.ConferenceRoomTest.hasGuestCollection">
     <configuration name="BedroomTest.hasBedroomCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,6 +70,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConferenceRoomTest.hasGuestCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="hasGuestCollection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuestTest.canGetGuestName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConferenceRoomTest.hasGuestCollection" />
         <item itemvalue="JUnit.BedroomTest.hasBedroomCapacity" />
         <item itemvalue="JUnit.ConferenceRoomTest.hasCapacity" />
         <item itemvalue="JUnit.BedroomTest.hasRoomNumber" />
@@ -115,21 +126,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="948" height="266" key="GridCell.Tab.0.bottom" timestamp="1592389542989">
+    <state width="948" height="266" key="GridCell.Tab.0.bottom" timestamp="1592389758859">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389542989" />
-    <state width="948" height="266" key="GridCell.Tab.0.center" timestamp="1592389542986">
+    <state width="948" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389758859" />
+    <state width="948" height="266" key="GridCell.Tab.0.center" timestamp="1592389758858">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389542986" />
-    <state width="948" height="266" key="GridCell.Tab.0.left" timestamp="1592389542985">
+    <state width="948" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389758858" />
+    <state width="948" height="266" key="GridCell.Tab.0.left" timestamp="1592389758857">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389542985" />
-    <state width="948" height="266" key="GridCell.Tab.0.right" timestamp="1592389542988">
+    <state width="948" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389758857" />
+    <state width="948" height="266" key="GridCell.Tab.0.right" timestamp="1592389758859">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389542988" />
+    <state width="948" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389758859" />
   </component>
 </project>
