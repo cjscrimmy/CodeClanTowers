@@ -5,10 +5,12 @@ public class Hotel {
 
     private ArrayList<Bedroom> bedrooms;
     private ArrayList<ConferenceRoom> confRooms;
+    private ArrayList<Booking> bookings;
 
     public Hotel(){
         this.bedrooms = new ArrayList<Bedroom>();
         this.confRooms = new ArrayList<ConferenceRoom>();
+        this.bookings = new ArrayList<Booking>();
     }
 
     public int bedroomCount(){

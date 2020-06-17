@@ -85,4 +85,15 @@ public class HotelTest {
         hotel.checkOutConfRoom(guest1, confRoom1);
         assertEquals(0, confRoom1.guestCount());
     }
+
+    @Test
+    public void hasBookings(){
+        assertEquals(0, hotel.bookingCount());
+    }
+
+    @Test
+    public void canBookRoom(){
+        hotel.bookRoom(bedroom1, 3);
+        assertEquals(1, hotel.bookingCount());
+    }
 }
