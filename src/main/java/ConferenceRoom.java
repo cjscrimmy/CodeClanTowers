@@ -16,4 +16,8 @@ public class ConferenceRoom {
     public int getGuestsSize(){
         return this.guests.size();
     }
+
+    public void addGuest(Guest guest){
+        this.guests.add(guest);
+    }
 }

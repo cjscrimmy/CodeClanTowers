@@ -10,6 +10,7 @@ public class ConferenceRoomTest {
     @Before
     public void before(){
         confRoom = new ConferenceRoom(5);
+        guest = new Guest("Jojo");
     }
 
     @Test
@@ -22,8 +23,9 @@ public class ConferenceRoomTest {
         assertEquals(0, confRoom.getGuestsSize());
     }
 
-//    @Test
-//    public void addGuest(){
-//        assertEquals(1, confRoom.addGuest(guest));
-//    }
+    @Test
+    public void addGuest(){
+        confRoom.addGuest(guest);
+        assertEquals(1, confRoom.getGuestsSize());
+    }
 }
