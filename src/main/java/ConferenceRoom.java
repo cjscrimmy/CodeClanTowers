@@ -17,6 +17,8 @@ public class ConferenceRoom {
         return this.guests.size();
     }
 
+//    public boolean isCon
+
     public void addGuest(Guest guest){
         this.guests.add(guest);
     }

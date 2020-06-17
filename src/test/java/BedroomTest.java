@@ -28,8 +28,8 @@ public class BedroomTest {
         assertEquals("double", bedroom1.getType());
     }
 
-//    @Test
-//    public void hasNoGuestsInRoom(){
-//        assertEquals(0, bedroom2.guestCount());
-//    }
+    @Test
+    public void hasNoGuestsInRoom(){
+        assertEquals(0, bedroom2.guestCount());
+    }
 }
