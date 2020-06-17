@@ -34,7 +34,15 @@ public class Hotel {
     public void checkInConfRoom(Guest guest, ConferenceRoom room){
         room.addGuest(guest);
     }
+    
+    public Guest checkOutBedroom(Guest guest, Bedroom room){
+        return room.removeGuest(guest);
+    }
 
+        
+    public Guest checkOutConfRoom(Guest guest, ConferenceRoom room){
+        return room.removeGuest(guest);
+    }
 //    public void hasEmptyRoom(){
 //
 //    }

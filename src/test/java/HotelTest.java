@@ -76,14 +76,13 @@ public class HotelTest {
     @Test
     public void canCheckOutBedroom(){
         hotel.checkInBedroom(guest1, bedroom1);
-        hotel.checkO
-        assertEquals(1, bedroom1.guestCount());
+        assertEquals(guest1, hotel.checkOutBedroom(guest1, bedroom1));
     }
 
     @Test
     public void canCheckOutConfRoom(){
         hotel.checkInConfRoom(guest1, confRoom1);
         hotel.checkOutConfRoom(guest1, confRoom1);
-        assertEquals(1, confRoom1.guestCount());
+        assertEquals(0, confRoom1.guestCount());
     }
 }
