@@ -26,4 +26,8 @@ public class ConferenceRoom {
             this.guests.add(guest);
         }
     }
+
+    public void removeGuest(){
+
+    }
 }
