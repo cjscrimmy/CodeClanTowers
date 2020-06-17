@@ -39,7 +39,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.ConferenceRoomTest.hasCapacity">
+  <component name="RunManager" selected="JUnit.BedroomTest.hasBedroomCapacity">
+    <configuration name="BedroomTest.hasBedroomCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
+      <option name="METHOD_NAME" value="hasBedroomCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BedroomTest.hasRoomNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest.hasBedroomCapacity" />
         <item itemvalue="JUnit.ConferenceRoomTest.hasCapacity" />
         <item itemvalue="JUnit.BedroomTest.hasRoomNumber" />
         <item itemvalue="JUnit.GuestTest.canGetGuestName" />

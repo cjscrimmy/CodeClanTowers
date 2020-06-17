@@ -19,7 +19,7 @@ public class BedroomTest {
     }
 
     @Test
-    public void hasCapacity(){
+    public void hasBedroomCapacity(){
         assertEquals(1, bedroom2.getCapacity());
     }
 }
