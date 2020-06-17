@@ -14,6 +14,7 @@ public class HotelTest {
     private Bedroom bedroom3;
     private Guest guest1;
     private Hotel hotel;
+    private DiningRoom diningRoom1;
 
     @Before
     public void before(){
@@ -24,6 +25,7 @@ public class HotelTest {
         bedroom2 = new Bedroom(13, 1, "single", 15);
         bedroom3 = new Bedroom(8, 1, "single", 12);
         guest1 = new Guest("Michael Jackson");
+        diningRoom1 = new DiningRoom("Pizzeria", 20);
         hotel = new Hotel();
         hotel.addBedroom(bedroom1);
         hotel.addBedroom(bedroom2);
@@ -102,5 +104,11 @@ public class HotelTest {
     public void canBookRoom(){
         Booking booking = hotel.bookRoom(bedroom1, 3);
         assertEquals(1, hotel.bookingCount());
+    }
+
+    @Test
+    public void hasDiningRoom(){
+        hotel.addDiningRoom(diningRoom1);
+        assertEquals(diningRoom1, hotel.getDiningRoom("Pizzeria"));
     }
 }
