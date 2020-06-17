@@ -12,13 +12,16 @@ public class ConferenceRoomTest {
 
     @Before
     public void before(){
-        confRoom = new ConferenceRoom(3);
+        confRoom = new ConferenceRoom("Bizzare Adventure", 3);
         guest1 = new Guest("Jojo");
         guest2 = new Guest("Jojo the son");
         guest3 = new Guest("Jojo the grand son");
         guest4 = new Guest("Dio");
     }
 
+//    @Test
+//    public void hasName(){
+//
     @Test
     public void hasCapacity(){
         assertEquals(3, confRoom.getCapacity());

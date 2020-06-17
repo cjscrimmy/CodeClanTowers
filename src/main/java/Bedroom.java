@@ -35,7 +35,8 @@ public class Bedroom {
         }
     }
 
-//    public void removeBedroomGuest(Guest guest){
-//        int indexInArrayList =
-//    }
+    public Guest removeBedroomGuest(Guest guest){
+        int indexInArrayList = this.guestsInBedroom.indexOf(guest);
+        return this.guestsInBedroom.remove(indexInArrayList);
+    }
 }
