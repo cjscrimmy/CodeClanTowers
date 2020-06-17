@@ -25,7 +25,7 @@ public class HotelTest {
         bedroom2 = new Bedroom(13, 1, "single", 15);
         bedroom3 = new Bedroom(8, 1, "single", 12);
         guest1 = new Guest("Michael Jackson");
-        diningRoom1 = new DiningRoom("Pizzeria", 20);
+        diningRoom1 = new DiningRoom("Pizzeria");
         hotel = new Hotel();
         hotel.addBedroom(bedroom1);
         hotel.addBedroom(bedroom2);
@@ -111,8 +111,9 @@ public class HotelTest {
         assertEquals(0, hotel.diningRoomCount());
     }
 
-    @Test
-    public void canAddDiningRoom() {
-        assertEquals(diningRoom1, )
-    }
+//    @Test
+//    public void canAddDiningRoom() {
+//        hotel.addDiningRoom(diningRoom1);
+//        assertEquals(1, hotel.diningRoomCount());
+//    }
 }

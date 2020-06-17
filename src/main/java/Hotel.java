@@ -1,16 +1,19 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Hotel {
 
     private ArrayList<Bedroom> bedrooms;
     private ArrayList<ConferenceRoom> confRooms;
     private ArrayList<Booking> bookings;
+    private HashMap<String, DiningRoom> diningRooms;
 
     public Hotel(){
         this.bedrooms = new ArrayList<Bedroom>();
         this.confRooms = new ArrayList<ConferenceRoom>();
         this.bookings = new ArrayList<Booking>();
+        this.diningRooms = new HashMap<String, DiningRoom>();
     }
 
     public int bedroomCount(){
@@ -19,6 +22,10 @@ public class Hotel {
 
     public int bookingCount(){
         return this.bookings.size();
+    }
+
+    public int diningRoomCount(){
+        return this.diningRooms.size();
     }
 
     public int confRoomCount(){
@@ -59,6 +66,9 @@ public class Hotel {
         bookings.add(booking);
     }
 
+    public void addDiningRoom(DiningRoom diningRoom){
+        diningRooms.put(diningRoom.getName(), diningRoom);
+    }
 
 //    public void hasEmptyRoom(){
 //
