@@ -38,7 +38,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ConferenceRoomTest.hasCapacity">
+    <configuration name="BedroomTest.hasRoomNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
+      <option name="METHOD_NAME" value="hasRoomNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConferenceRoomTest.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuestTest.canGetGuestName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -51,6 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConferenceRoomTest.hasCapacity" />
+        <item itemvalue="JUnit.BedroomTest.hasRoomNumber" />
         <item itemvalue="JUnit.GuestTest.canGetGuestName" />
       </list>
     </recent_temporary>
@@ -81,21 +103,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="948" height="266" key="GridCell.Tab.0.bottom" timestamp="1592389045460">
+    <state width="948" height="266" key="GridCell.Tab.0.bottom" timestamp="1592389524954">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389045460" />
-    <state width="948" height="266" key="GridCell.Tab.0.center" timestamp="1592389045459">
+    <state width="948" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389524954" />
+    <state width="948" height="266" key="GridCell.Tab.0.center" timestamp="1592389524953">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389045459" />
-    <state width="948" height="266" key="GridCell.Tab.0.left" timestamp="1592389045458">
+    <state width="948" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389524953" />
+    <state width="948" height="266" key="GridCell.Tab.0.left" timestamp="1592389524953">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389045458" />
-    <state width="948" height="266" key="GridCell.Tab.0.right" timestamp="1592389045459">
+    <state width="948" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389524953" />
+    <state width="948" height="266" key="GridCell.Tab.0.right" timestamp="1592389524954">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389045459" />
+    <state width="948" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592389524954" />
   </component>
 </project>
