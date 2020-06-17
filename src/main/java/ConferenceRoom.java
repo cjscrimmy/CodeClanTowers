@@ -13,16 +13,16 @@ public class ConferenceRoom {
         return this.capacity;
     }
 
-    public int getConfGuestsSize() {
+    public int getGuestsSize() {
         return this.guests.size();
     }
 
-    public boolean isConferenceRoomFull(){
-        return getConfGuestsSize() >= this.capacity;
+    public boolean isRoomFull(){
+        return getGuestsSize() >= this.capacity;
     }
 
-    public void addConfGuest(Guest guest){
-        if(!isConferenceRoomFull()) {
+    public void addGuest(Guest guest){
+        if(!isRoomFull()) {
             this.guests.add(guest);
         }
     }

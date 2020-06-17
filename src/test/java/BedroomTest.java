@@ -45,4 +45,12 @@ public class BedroomTest {
         bedroom1.addBedroomGuest(guest1);
         assertEquals(1, bedroom1.guestCount());
     }
+
+    @Test
+    public void cantAddGuestToFullRoom(){
+        bedroom2.addBedroomGuest(guest1);
+        bedroom2.addBedroomGuest(guest2);
+        bedroom2.addBedroomGuest(guest3);
+        assertEquals(2, bedroom2.guestCount());
+    }
 }
