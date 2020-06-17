@@ -50,7 +50,6 @@ public class BedroomTest {
     public void cantAddGuestToFullRoom(){
         bedroom2.addBedroomGuest(guest1);
         bedroom2.addBedroomGuest(guest2);
-        bedroom2.addBedroomGuest(guest3);
-        assertEquals(2, bedroom2.guestCount());
+        assertEquals(1, bedroom2.guestCount());
     }
 }

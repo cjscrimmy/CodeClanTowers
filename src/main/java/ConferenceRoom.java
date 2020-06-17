@@ -27,7 +27,7 @@ public class ConferenceRoom {
         }
     }
 
-    public void removeGuest(){
-
-    }
+//    public Guest removeGuest(Guest guest){
+//        return this.guests.remove();
+//    }
 }

@@ -31,8 +31,7 @@ public class Bedroom {
 
     public void addBedroomGuest(Guest guest){
         if(guestCount() < this.capacity){
-
+            this.guestsInBedroom.add(guest);
         }
-
     }
 }
