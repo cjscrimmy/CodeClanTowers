@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc58e05-3443-4ab2-82c0-53996afb4edb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,17 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.BedroomTest.cantRemoveFromEmptyBedroom">
-    <configuration name="BedroomTest.canRemoveGuestFromBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
-      <option name="METHOD_NAME" value="canRemoveGuestFromBedroom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HotelTest">
     <configuration name="BedroomTest.cantAddGuestToBedroomTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,13 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HotelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.BedroomTest.cantRemoveFromEmptyBedroom" />
         <item itemvalue="JUnit.ConferenceRoomTest" />
         <item itemvalue="JUnit.BedroomTest.cantAddGuestToBedroomTwice" />
         <item itemvalue="JUnit.ConferenceRoomTest.hasName" />
-        <item itemvalue="JUnit.BedroomTest.canRemoveGuestFromBedroom" />
       </list>
     </recent_temporary>
   </component>

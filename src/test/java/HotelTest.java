@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class HotelTest {
 
@@ -20,6 +21,16 @@ public class HotelTest {
         bedroom2 = new Bedroom(13, 1, "single");
         guest1 = new Guest("Michael Jackson");
         hotel = new Hotel();
+
+    }
+    @Test
+    public void hasBedroomCount(){
+        assertEquals(0, hotel.bedroomCount());
+    }
+
+    @Test
+    public void hasConfRoomCount(){
+        assertEquals(0, hotel.confRoomCount());
     }
 
     @Test
@@ -30,15 +41,23 @@ public class HotelTest {
 
     @Test
     public void canAddConfRoom(){
-        hotel.addBedroom(confRoom1);
+        hotel.addConfRoom(confRoom1);
         assertEquals(1, hotel.confRoomCount());
     }
 
-    @Test
-    public void canCheckIn(){
-        hotel.checkIn(guest1, hotel.bedrooms.get(1));
-        assertEquals(1, bedroom1.guestCount());
-        hotel.checkIn(guest1, hotel.confRooms.get(1));
-        assertEquals(1, confRoom1.guestCount());
-    }
+//    @Test
+//    public void hasEmptyRoom(){
+//        hotel.addConfRoom(confRoom1);
+//        hotel.addBedroom(bedroom1);
+//        assertTrue(hotel.bedrooms.hasEmptyRoom());
+//        assertTrue(hotel.confRooms.hasEmptyRoom());
+//    }
+
+//    @Test
+//    public void canCheckIn(){
+//        hotel.checkIn(guest1, hotel.bedrooms.get(1));
+//        assertEquals(1, bedroom1.guestCount());
+//        hotel.checkIn(guest1, hotel.confRooms.get(1));
+//        assertEquals(1, confRoom1.guestCount());
+//    }
 }

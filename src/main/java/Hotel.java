@@ -12,6 +12,22 @@ public class Hotel {
     }
 
     public int bedroomCount(){
-        r
+        return this.bedrooms.size();
     }
+
+    public int confRoomCount(){
+        return this.confRooms.size();
+    }
+
+    public void addBedroom(Bedroom bedroom){
+        this.bedrooms.add(bedroom);
+    }
+
+    public void addConfRoom(ConferenceRoom confRoom){
+        this.confRooms.add(confRoom);
+    }
+
+//    public void hasEmptyRoom(){
+//
+//    }
 }
