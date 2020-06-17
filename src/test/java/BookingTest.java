@@ -32,7 +32,7 @@ public class BookingTest {
     }
 
     @Test
-    public void canCalculateTotalRate(){
-        asser
+    public void canCalculateTotalBill(){
+        assertEquals(40, booking1.totalBill());
     }
 }
