@@ -4,9 +4,7 @@
     <list default="true" id="dcc58e05-3443-4ab2-82c0-53996afb4edb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.ConferenceRoomTest.hasName">
+  <component name="RunManager" selected="JUnit.BedroomTest.cantAddGuestToBedroomTwice">
     <configuration name="BedroomTest.canRemoveGuestFromBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -53,11 +51,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BedroomTest.hasNoGuestsInRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BedroomTest.cantAddGuestToBedroomTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BedroomTest" />
-      <option name="METHOD_NAME" value="hasNoGuestsInRoom" />
+      <option name="METHOD_NAME" value="cantAddGuestToBedroomTwice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest.cantAddGuestToBedroomTwice" />
         <item itemvalue="JUnit.ConferenceRoomTest.hasName" />
         <item itemvalue="JUnit.BedroomTest.canRemoveGuestFromBedroom" />
         <item itemvalue="JUnit.ConferenceRoomTest.addGuest" />
         <item itemvalue="JUnit.ConferenceRoomTest.removeGuest" />
-        <item itemvalue="JUnit.BedroomTest.hasNoGuestsInRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -129,22 +127,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="948" height="266" key="GridCell.Tab.0.bottom" timestamp="1592392292353">
+    <state width="948" height="266" key="GridCell.Tab.0.bottom" timestamp="1592392635422">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392292353" />
-    <state width="948" height="266" key="GridCell.Tab.0.center" timestamp="1592392292352">
+    <state width="948" height="266" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392635422" />
+    <state width="948" height="266" key="GridCell.Tab.0.center" timestamp="1592392635419">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392292352" />
-    <state width="948" height="266" key="GridCell.Tab.0.left" timestamp="1592392292352">
+    <state width="948" height="266" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392635419" />
+    <state width="948" height="266" key="GridCell.Tab.0.left" timestamp="1592392635413">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392292352" />
-    <state width="948" height="266" key="GridCell.Tab.0.right" timestamp="1592392292353">
+    <state width="948" height="266" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392635413" />
+    <state width="948" height="266" key="GridCell.Tab.0.right" timestamp="1592392635421">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392292353" />
+    <state width="948" height="266" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592392635421" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

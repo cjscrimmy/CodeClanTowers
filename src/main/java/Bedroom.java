@@ -30,7 +30,7 @@ public class Bedroom {
     }
 
     public void addBedroomGuest(Guest guest){
-        if(guestCount() < this.capacity){
+        if(guestCount() < this.capacity && !this.guestsInBedroom.contains(guest)){
             this.guestsInBedroom.add(guest);
         }
     }
