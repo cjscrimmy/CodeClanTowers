@@ -5,13 +5,14 @@ import static org.junit.Assert.assertEquals;
 
 public class BookingTest {
 
-    private Booking booking1;
     private Bedroom bedroom1;
+    private Booking booking1;
 
     @Before
     public void before(){
-        booking1 = new Booking(bedroom1, 2);
         bedroom1 = new Bedroom(23, 2, "double");
+        booking1 = new Booking(bedroom1, 2);
+//        booking1.addBedroom(bedroom1);
     }
 
     @Test
@@ -21,12 +22,12 @@ public class BookingTest {
 
     @Test
     public void hasNumberOfNights(){
-        assertEquals(2, booking1.numberOfNights());
+        assertEquals(2, booking1.getNumberOfNights());
     }
 
     @Test
     public void canAddNight(){
         booking1.addNights(3);
-        assertEquals(3, booking1.numberOfNights());
+        assertEquals(5, booking1.getNumberOfNights());
     }
 }

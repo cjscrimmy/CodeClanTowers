@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dcc58e05-3443-4ab2-82c0-53996afb4edb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hotel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest">
-    <configuration name="BedroomTest.cantAddGuestToBedroomTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
-      <option name="METHOD_NAME" value="cantAddGuestToBedroomTwice" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BookingTest">
     <configuration name="BedroomTest.cantRemoveFromEmptyBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,21 +52,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConferenceRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConferenceRoomTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingTest.hasBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookingTest" />
+      <option name="METHOD_NAME" value="hasBedroom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConferenceRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookingTest" />
+        <item itemvalue="JUnit.BookingTest.hasBedroom" />
         <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.BedroomTest.cantRemoveFromEmptyBedroom" />
         <item itemvalue="JUnit.ConferenceRoomTest" />
-        <item itemvalue="JUnit.BedroomTest.cantAddGuestToBedroomTwice" />
-        <item itemvalue="JUnit.ConferenceRoomTest.hasName" />
       </list>
     </recent_temporary>
   </component>
@@ -125,22 +125,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="948" height="141" key="GridCell.Tab.0.bottom" timestamp="1592399494566">
+    <state width="1354" height="205" key="GridCell.Tab.0.bottom" timestamp="1592400577140">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="141" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592399494566" />
-    <state width="948" height="141" key="GridCell.Tab.0.center" timestamp="1592399494564">
+    <state width="1354" height="205" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592400577140" />
+    <state width="1354" height="205" key="GridCell.Tab.0.center" timestamp="1592400577136">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="141" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592399494564" />
-    <state width="948" height="141" key="GridCell.Tab.0.left" timestamp="1592399494562">
+    <state width="1354" height="205" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592400577136" />
+    <state width="1354" height="205" key="GridCell.Tab.0.left" timestamp="1592400577134">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="141" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592399494562" />
-    <state width="948" height="141" key="GridCell.Tab.0.right" timestamp="1592399494565">
+    <state width="1354" height="205" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592400577134" />
+    <state width="1354" height="205" key="GridCell.Tab.0.right" timestamp="1592400577139">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="948" height="141" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592399494565" />
+    <state width="1354" height="205" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592400577139" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
