@@ -51,6 +51,7 @@ public class Hotel {
 
     public Booking bookRoom(Bedroom bedroom, int numberOfNights){
         Booking booking = new Booking(bedroom, numberOfNights);
+        addBooking(booking);
         return booking;
     }
 

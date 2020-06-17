@@ -4,6 +4,7 @@ public class Bedroom {
     private int roomNumber;
     private int capacity;
     private String type;
+    private int nightlyRate;
     private ArrayList<Guest> guestsInBedroom;
 
     public Bedroom(int roomNumber, int capacity, String type){

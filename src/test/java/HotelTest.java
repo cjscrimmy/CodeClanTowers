@@ -20,9 +20,9 @@ public class HotelTest {
         confRoom1 = new ConferenceRoom("Crazy Conference Room", 3);
         confRoom2 = new ConferenceRoom("Final Conference Room", 5);
         confRoom3 = new ConferenceRoom("The Conference Room", 10);
-        bedroom1 = new Bedroom(20, 2, "double");
-        bedroom2 = new Bedroom(13, 1, "single");
-        bedroom3 = new Bedroom(8, 1, "single");
+        bedroom1 = new Bedroom(20, 2, "double", 20);
+        bedroom2 = new Bedroom(13, 1, "single", 15);
+        bedroom3 = new Bedroom(8, 1, "single", 12);
         guest1 = new Guest("Michael Jackson");
         hotel = new Hotel();
         hotel.addBedroom(bedroom1);
