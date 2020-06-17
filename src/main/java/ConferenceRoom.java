@@ -12,4 +12,6 @@ public class ConferenceRoom {
     public int getCapacity(){
         return this.capacity;
     }
+
+    public int getGueutsSi
 }
