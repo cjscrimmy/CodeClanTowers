@@ -22,7 +22,7 @@ public class ConferenceRoom {
     }
 
     public void addGuest(Guest guest){
-        if(!isRoomFull()) {
+        if(!isRoomFull() && !this.guests.contains(guest)) {
             this.guests.add(guest);
         }
     }
