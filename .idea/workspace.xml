@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc58e05-3443-4ab2-82c0-53996afb4edb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiningRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.DiningRoomTest">
+  <component name="RunManager" selected="JUnit.All in CodeClanTowers">
+    <configuration name="All in CodeClanTowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,23 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.hasBookings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="hasBookings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in CodeClanTowers" />
         <item itemvalue="JUnit.DiningRoomTest" />
         <item itemvalue="JUnit.BookingTest.canCalculateTotalBill" />
         <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.HotelTest" />
-        <item itemvalue="JUnit.HotelTest.hasBookings" />
       </list>
     </recent_temporary>
   </component>
@@ -122,22 +121,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1023" height="205" key="GridCell.Tab.0.bottom" timestamp="1592402432178">
+    <state width="1214" height="205" key="GridCell.Tab.0.bottom" timestamp="1592403121406">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1023" height="205" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592402432178" />
-    <state width="1023" height="205" key="GridCell.Tab.0.center" timestamp="1592402432177">
+    <state width="1214" height="205" key="GridCell.Tab.0.bottom/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592403121406" />
+    <state width="1214" height="205" key="GridCell.Tab.0.center" timestamp="1592403121405">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1023" height="205" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592402432177" />
-    <state width="1023" height="205" key="GridCell.Tab.0.left" timestamp="1592402432176">
+    <state width="1214" height="205" key="GridCell.Tab.0.center/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592403121405" />
+    <state width="1214" height="205" key="GridCell.Tab.0.left" timestamp="1592403121405">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1023" height="205" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592402432176" />
-    <state width="1023" height="205" key="GridCell.Tab.0.right" timestamp="1592402432177">
+    <state width="1214" height="205" key="GridCell.Tab.0.left/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592403121405" />
+    <state width="1214" height="205" key="GridCell.Tab.0.right" timestamp="1592403121406">
       <screen x="0" y="23" width="1920" height="985" />
     </state>
-    <state width="1023" height="205" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592402432177" />
+    <state width="1214" height="205" key="GridCell.Tab.0.right/1920.303.1280.777/0.23.1920.985@0.23.1920.985" timestamp="1592403121406" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

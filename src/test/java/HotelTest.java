@@ -101,7 +101,6 @@ public class HotelTest {
     @Test
     public void canBookRoom(){
         Booking booking = hotel.bookRoom(bedroom1, 3);
-        hotel.addBooking(booking);
         assertEquals(1, hotel.bookingCount());
     }
 }
