@@ -26,6 +26,8 @@ public class DiningRoomTest {
 
     @Test
     public void hasGuests(){
+        diningroom1.addGuest(guest1);
+        diningroom1.addGuest(guest2);
         assertEquals(2, diningroom1.getGuests());
     }
 }

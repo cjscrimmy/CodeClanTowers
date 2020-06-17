@@ -13,4 +13,12 @@ public class DiningRoom {
     public String getName(){
         return this.name;
     }
+
+    public int getGuests(){
+        return this.guests.size();
+    }
+
+    public void addGuest(Guest guest){
+        this.guests.add(guest);
+    }
 }
