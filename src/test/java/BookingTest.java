@@ -31,5 +31,8 @@ public class BookingTest {
         assertEquals(5, booking1.getNumberOfNights());
     }
 
-
+    @Test
+    public void canCalculateTotalRate(){
+        asser
+    }
 }
