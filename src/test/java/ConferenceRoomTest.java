@@ -24,6 +24,6 @@ public class ConferenceRoomTest {
 
 //    @Test
 //    public void addGuest(){
-//      assertEquals(1, confRoom.addGuest(guest);
+//        assertEquals(1, confRoom.addGuest(guest));
 //    }
 }
