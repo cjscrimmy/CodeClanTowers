@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -70,7 +69,4 @@ public class Hotel {
         diningRooms.put(diningRoom.getName(), diningRoom);
     }
 
-//    public void hasEmptyRoom(){
-//
-//    }
 }

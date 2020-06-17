@@ -12,7 +12,6 @@ public class BookingTest {
     public void before(){
         bedroom1 = new Bedroom(23, 2, "double", 20);
         booking1 = new Booking(bedroom1, 2);
-//        booking1.addBedroom(bedroom1);
     }
 
     @Test

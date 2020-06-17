@@ -48,7 +48,6 @@ public class ConferenceRoomTest {
 
     @Test
     public void removeGuest(){
-//        confRoom.addGuest(guest3);
         confRoom.addGuest(guest4);
         assertEquals(guest4, confRoom.removeGuest(guest4));
         assertEquals(null, confRoom.removeGuest(guest4));
