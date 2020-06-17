@@ -28,4 +28,8 @@ public class Bedroom {
     public int guestCount(){
         return this.guestsInBedroom.size();
     }
+
+    public void addBedroomGuest(Guest guest){
+        this.guestsInBedroom.add(guest);
+    }
 }

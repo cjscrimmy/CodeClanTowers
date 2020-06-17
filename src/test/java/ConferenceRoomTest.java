@@ -26,16 +26,16 @@ public class ConferenceRoomTest {
 
     @Test
     public void hasGuestCollection(){
-        assertEquals(0, confRoom.getGuestsSize());
+        assertEquals(0, confRoom.getConfGuestsSize());
     }
 
     @Test
     public void addGuest(){
-        confRoom.addGuest(guest1);
-        assertEquals(1, confRoom.getGuestsSize());
-        confRoom.addGuest(guest2);
-        confRoom.addGuest(guest3);
-        confRoom.addGuest(guest4);
-        assertEquals(3, confRoom.getGuestsSize());
+        confRoom.addConfGuest(guest1);
+        assertEquals(1, confRoom.getConfGuestsSize());
+        confRoom.addConfGuest(guest2);
+        confRoom.addConfGuest(guest3);
+        confRoom.addConfGuest(guest4);
+        assertEquals(3, confRoom.getConfGuestsSize());
     }
 }
