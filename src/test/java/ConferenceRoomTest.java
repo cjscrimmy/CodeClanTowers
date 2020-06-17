@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class ConferenceRoomTest {
     private ConferenceRoom confRoom;
     private Guest guest;
@@ -10,6 +12,8 @@ public class ConferenceRoomTest {
         confRoom = new ConferenceRoom(5);
     }
 
-//    @Test
-//
+    @Test
+    public void hasCapacity(){
+        assertEquals(5, confRoom.getCapacity());
+    }
 }
