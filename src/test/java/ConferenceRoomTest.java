@@ -31,19 +31,19 @@ public class ConferenceRoomTest {
 
     @Test
     public void hasGuestCollection(){
-        assertEquals(0, confRoom.getGuestsSize());
+        assertEquals(0, confRoom.guestCount());
     }
 
     @Test
     public void addGuest(){
         confRoom.addGuest(guest1);
-        assertEquals(1, confRoom.getGuestsSize());
+        assertEquals(1, confRoom.guestCount());
         confRoom.addGuest(guest2);
         confRoom.addGuest(guest2);
-        assertEquals(2, confRoom.getGuestsSize());
+        assertEquals(2, confRoom.guestCount());
         confRoom.addGuest(guest3);
         confRoom.addGuest(guest4);
-        assertEquals(3, confRoom.getGuestsSize());
+        assertEquals(3, confRoom.guestCount());
     }
 
     @Test

@@ -29,13 +29,13 @@ public class Bedroom {
         return this.guestsInBedroom.size();
     }
 
-    public void addBedroomGuest(Guest guest){
+    public void addGuest(Guest guest){
         if(guestCount() < this.capacity && !this.guestsInBedroom.contains(guest)){
             this.guestsInBedroom.add(guest);
         }
     }
 
-    public Guest removeBedroomGuest(Guest guest){
+    public Guest removeGuest(Guest guest){
         if(guestCount() > 0) {
             int indexInArrayList = this.guestsInBedroom.indexOf(guest);
             return this.guestsInBedroom.remove(indexInArrayList);

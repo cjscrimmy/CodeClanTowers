@@ -42,34 +42,34 @@ public class BedroomTest {
 
     @Test
     public void canAddGuestToRoom(){
-        bedroom1.addBedroomGuest(guest1);
+        bedroom1.addGuest(guest1);
         assertEquals(1, bedroom1.guestCount());
     }
 
     @Test
     public void cantAddGuestToFullRoom(){
-        bedroom2.addBedroomGuest(guest1);
-        bedroom2.addBedroomGuest(guest2);
+        bedroom2.addGuest(guest1);
+        bedroom2.addGuest(guest2);
         assertEquals(1, bedroom2.guestCount());
     }
 
     @Test
     public void cantAddGuestToBedroomTwice(){
-        bedroom1.addBedroomGuest(guest1);
-        bedroom1.addBedroomGuest(guest1);
+        bedroom1.addGuest(guest1);
+        bedroom1.addGuest(guest1);
         assertEquals(1, bedroom1.guestCount());
     }
 
     @Test
     public void canRemoveGuestFromBedroom(){
-        bedroom1.addBedroomGuest(guest3);
-        bedroom1.removeBedroomGuest(guest3);
+        bedroom1.addGuest(guest3);
+        bedroom1.removeGuest(guest3);
         assertEquals(0, bedroom1.guestCount());
     }
 
     @Test
     public void cantRemoveFromEmptyBedroom(){
-        bedroom2.removeBedroomGuest(guest1);
+        bedroom2.removeGuest(guest1);
         assertEquals(0, bedroom2.guestCount());
     }
 }

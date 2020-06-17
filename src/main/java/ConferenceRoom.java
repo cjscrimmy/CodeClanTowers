@@ -19,12 +19,12 @@ public class ConferenceRoom {
         return this.capacity;
     }
 
-    public int getGuestsSize() {
+    public int guestCount() {
         return this.guests.size();
     }
 
     public boolean isRoomFull(){
-        return getGuestsSize() >= this.capacity;
+        return guestCount() >= this.capacity;
     }
 
     public void addGuest(Guest guest){

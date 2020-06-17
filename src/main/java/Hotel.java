@@ -27,6 +27,14 @@ public class Hotel {
         this.confRooms.add(confRoom);
     }
 
+    public void checkInBedroom(Guest guest, Bedroom room){
+        room.addGuest(guest);
+    }
+
+    public void checkInConfRoom(Guest guest, ConferenceRoom room){
+        room.addGuest(guest);
+    }
+
 //    public void hasEmptyRoom(){
 //
 //    }
