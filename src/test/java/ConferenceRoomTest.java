@@ -28,4 +28,9 @@ public class ConferenceRoomTest {
         confRoom.addGuest(guest);
         assertEquals(1, confRoom.getGuestsSize());
     }
+
+//
+//
+//
+//
 }
