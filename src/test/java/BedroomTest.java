@@ -23,8 +23,8 @@ public class BedroomTest {
         assertEquals(1, bedroom2.getCapacity());
     }
 
-//    @Test
-//    public void hasBedroomType(){
-//        assertEquals("double", bedroom1.getType());
-//    }
+    @Test
+    public void hasBedroomType(){
+        assertEquals("double", bedroom1.getType());
+    }
 }
