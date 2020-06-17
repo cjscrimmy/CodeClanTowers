@@ -34,4 +34,8 @@ public class Bedroom {
             this.guestsInBedroom.add(guest);
         }
     }
+
+//    public void removeBedroomGuest(Guest guest){
+//
+//    }
 }

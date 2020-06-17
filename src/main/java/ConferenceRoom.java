@@ -28,7 +28,10 @@ public class ConferenceRoom {
     }
 
     public Guest removeGuest(Guest guest){
-        int index = guests.indexOf(guest);
-        return this.guests.remove(index);
+        if(this.guests.contains(guest)){
+            int index = guests.indexOf(guest);
+            return this.guests.remove(index);
+        }
+        return null;
     }
 }
