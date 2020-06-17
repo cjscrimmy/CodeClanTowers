@@ -21,4 +21,9 @@ public class ConferenceRoomTest {
     public void hasGuestCollection(){
         assertEquals(0, confRoom.getGuestsSize());
     }
+
+//    @Test
+//    public void addGuest(){
+//      assertEquals(1, confRoom.addGuest(guest);
+//    }
 }

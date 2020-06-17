@@ -6,6 +6,7 @@ public class Bedroom {
     public Bedroom(int roomNumber, int capacity, String type){
         this.roomNumber = roomNumber;
         this.capacity = capacity;
+        this.type = type;
     }
 
     public int getRoomNumber(){
@@ -14,5 +15,9 @@ public class Bedroom {
 
     public int getCapacity(){
         return this.capacity;
+    }
+
+    public String getType(){
+        return this.type;
     }
 }
