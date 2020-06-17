@@ -35,7 +35,7 @@ public class Bedroom {
         }
     }
 
-//    public void removeBedroomGuest(Guest guest){
-//
-//    }
+    public void removeBedroomGuest(Guest guest){
+
+    }
 }
