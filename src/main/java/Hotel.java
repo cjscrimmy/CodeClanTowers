@@ -17,6 +17,10 @@ public class Hotel {
         return this.bedrooms.size();
     }
 
+    public int bookingCount(){
+        return this.bookings.size();
+    }
+
     public int confRoomCount(){
         return this.confRooms.size();
     }
@@ -44,6 +48,16 @@ public class Hotel {
     public Guest checkOutConfRoom(Guest guest, ConferenceRoom room){
         return room.removeGuest(guest);
     }
+
+    public Booking bookRoom(Bedroom bedroom, int numberOfNights){
+        Booking booking = new Booking(bedroom, numberOfNights);
+        return booking;
+    }
+
+    public void addBooking(Booking booking){
+        bookings.add(booking);
+    }
+
 
 //    public void hasEmptyRoom(){
 //
