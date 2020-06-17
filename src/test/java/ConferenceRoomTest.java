@@ -6,7 +6,10 @@ public class ConferenceRoomTest {
     private Guest guest;
 
     @Before
-    public void before()
+    public void before(){
+        confRoom = new ConferenceRoom(5);
+    }
 
-    @Test
+//    @Test
+//
 }

@@ -5,10 +5,14 @@ public class BedroomTest {
     Bedroom bedroom1;
     Bedroom bedroom2;
 
-    @Before
-    public void before(){
-        bedroom1 = new Bedroom()
-    }
+//    @Before
+//    public void before(){
+//        bedroom1 = new Bedroom(14, 2, "double");
+//        bedroom2 = new Bedroom(5, 1, "single");
+//    }
 
-    @Test
+//    @Test
+//    public void hasRoomNumber(){
+//        assertEquals(14, bedroom1.getRoomNumber);
+//    }
 }

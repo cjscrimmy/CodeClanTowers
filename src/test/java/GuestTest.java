@@ -14,7 +14,7 @@ public class GuestTest {
 
     @Test
     public void canGetGuestName(){
-        assertEquals("Craig", guest1.getName());
+        assertEquals("Bill", guest1.getGuestName());
     }
 
 }
