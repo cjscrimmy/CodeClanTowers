@@ -10,7 +10,7 @@ public class BookingTest {
 
     @Before
     public void before(){
-        bedroom1 = new Bedroom(23, 2, "double");
+        bedroom1 = new Bedroom(23, 2, "double", 20);
         booking1 = new Booking(bedroom1, 2);
 //        booking1.addBedroom(bedroom1);
     }
@@ -30,4 +30,6 @@ public class BookingTest {
         booking1.addNights(3);
         assertEquals(5, booking1.getNumberOfNights());
     }
+
+
 }

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dcc58e05-3443-4ab2-82c0-53996afb4edb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HotelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +40,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest">
-    <configuration name="BedroomTest.cantRemoveFromEmptyBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BedroomTest">
+    <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BedroomTest" />
-      <option name="METHOD_NAME" value="cantRemoveFromEmptyBedroom" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.HotelTest.hasBookings" />
         <item itemvalue="JUnit.BookingTest" />
         <item itemvalue="JUnit.BookingTest.hasBedroom" />
-        <item itemvalue="JUnit.BedroomTest.cantRemoveFromEmptyBedroom" />
       </list>
     </recent_temporary>
   </component>
